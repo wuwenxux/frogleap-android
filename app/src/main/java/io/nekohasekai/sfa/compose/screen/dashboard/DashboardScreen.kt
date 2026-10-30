@@ -65,7 +65,7 @@ fun DashboardScreen(
 
     OverrideTopBar {
         TopAppBar(
-            title = { Text(stringResource(R.string.title_dashboard)) },
+            title = { Text(stringResource(R.string.dashboard_brand_title)) },
             actions = {
                 Box {
                     IconButton(onClick = { showOthersMenu = true }) {
